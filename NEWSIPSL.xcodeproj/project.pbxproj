@@ -7,7 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CDA487B246F702800D93F5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA487A246F702800D93F5E /* main.cpp */; };
+		9CDA489A2470067B00D93F5E /* SEAMFAIL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48862470067900D93F5E /* SEAMFAIL.cpp */; };
+		9CDA489B2470067B00D93F5E /* SIPUTIL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48872470067900D93F5E /* SIPUTIL.cpp */; };
+		9CDA489C2470067B00D93F5E /* ACTION.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48882470067900D93F5E /* ACTION.cpp */; };
+		9CDA489D2470067B00D93F5E /* CS_HEADERS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48892470067900D93F5E /* CS_HEADERS.cpp */; };
+		9CDA489E2470067B00D93F5E /* SUDP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA488A2470067900D93F5E /* SUDP.cpp */; };
+		9CDA489F2470067B00D93F5E /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA488B2470067900D93F5E /* test.cpp */; };
+		9CDA48A02470067B00D93F5E /* MESSAGE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA488C2470067900D93F5E /* MESSAGE.cpp */; };
+		9CDA48A12470067B00D93F5E /* VALO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA488D2470067A00D93F5E /* VALO.cpp */; };
+		9CDA48A22470067B00D93F5E /* TRNSCT_SM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA488E2470067A00D93F5E /* TRNSCT_SM.cpp */; };
+		9CDA48A32470067B00D93F5E /* SIPENGINE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA488F2470067A00D93F5E /* SIPENGINE.cpp */; };
+		9CDA48A42470067B00D93F5E /* ALARM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48902470067A00D93F5E /* ALARM.cpp */; };
+		9CDA48A52470067B00D93F5E /* COMAP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48912470067A00D93F5E /* COMAP.cpp */; };
+		9CDA48A62470067B00D93F5E /* SL_CC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48922470067A00D93F5E /* SL_CC.cpp */; };
+		9CDA48A72470067B00D93F5E /* ALO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48932470067A00D93F5E /* ALO.cpp */; };
+		9CDA48A82470067B00D93F5E /* ENGINE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48942470067A00D93F5E /* ENGINE.cpp */; };
+		9CDA48A92470067B00D93F5E /* DOA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48952470067A00D93F5E /* DOA.cpp */; };
+		9CDA48AA2470067B00D93F5E /* SPIN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48962470067A00D93F5E /* SPIN.cpp */; };
+		9CDA48AB2470067B00D93F5E /* TRNSPRT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48972470067A00D93F5E /* TRNSPRT.cpp */; };
+		9CDA48AC2470067B00D93F5E /* CALL_OSET.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48982470067A00D93F5E /* CALL_OSET.cpp */; };
+		9CDA48AD2470067B00D93F5E /* DAO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48992470067B00D93F5E /* DAO.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +43,47 @@
 
 /* Begin PBXFileReference section */
 		9CDA4877246F702800D93F5E /* NEWSIPSL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NEWSIPSL; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CDA487A246F702800D93F5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9CDA48862470067900D93F5E /* SEAMFAIL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SEAMFAIL.cpp; sourceTree = "<group>"; };
+		9CDA48872470067900D93F5E /* SIPUTIL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SIPUTIL.cpp; sourceTree = "<group>"; };
+		9CDA48882470067900D93F5E /* ACTION.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ACTION.cpp; sourceTree = "<group>"; };
+		9CDA48892470067900D93F5E /* CS_HEADERS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CS_HEADERS.cpp; sourceTree = "<group>"; };
+		9CDA488A2470067900D93F5E /* SUDP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SUDP.cpp; sourceTree = "<group>"; };
+		9CDA488B2470067900D93F5E /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		9CDA488C2470067900D93F5E /* MESSAGE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MESSAGE.cpp; sourceTree = "<group>"; };
+		9CDA488D2470067A00D93F5E /* VALO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VALO.cpp; sourceTree = "<group>"; };
+		9CDA488E2470067A00D93F5E /* TRNSCT_SM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TRNSCT_SM.cpp; sourceTree = "<group>"; };
+		9CDA488F2470067A00D93F5E /* SIPENGINE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SIPENGINE.cpp; sourceTree = "<group>"; };
+		9CDA48902470067A00D93F5E /* ALARM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ALARM.cpp; sourceTree = "<group>"; };
+		9CDA48912470067A00D93F5E /* COMAP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = COMAP.cpp; sourceTree = "<group>"; };
+		9CDA48922470067A00D93F5E /* SL_CC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SL_CC.cpp; sourceTree = "<group>"; };
+		9CDA48932470067A00D93F5E /* ALO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ALO.cpp; sourceTree = "<group>"; };
+		9CDA48942470067A00D93F5E /* ENGINE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ENGINE.cpp; sourceTree = "<group>"; };
+		9CDA48952470067A00D93F5E /* DOA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DOA.cpp; sourceTree = "<group>"; };
+		9CDA48962470067A00D93F5E /* SPIN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPIN.cpp; sourceTree = "<group>"; };
+		9CDA48972470067A00D93F5E /* TRNSPRT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TRNSPRT.cpp; sourceTree = "<group>"; };
+		9CDA48982470067A00D93F5E /* CALL_OSET.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CALL_OSET.cpp; sourceTree = "<group>"; };
+		9CDA48992470067B00D93F5E /* DAO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DAO.cpp; sourceTree = "<group>"; };
+		9CDA48AE2470069B00D93F5E /* TRNSCT_SM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRNSCT_SM.h; sourceTree = "<group>"; };
+		9CDA48AF2470069B00D93F5E /* ACTION.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACTION.h; sourceTree = "<group>"; };
+		9CDA48B02470069C00D93F5E /* SIPUTIL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIPUTIL.h; sourceTree = "<group>"; };
+		9CDA48B12470069C00D93F5E /* ENGINE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENGINE.h; sourceTree = "<group>"; };
+		9CDA48B22470069C00D93F5E /* SUDP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUDP.h; sourceTree = "<group>"; };
+		9CDA48B32470069C00D93F5E /* CALL_OSET.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CALL_OSET.h; sourceTree = "<group>"; };
+		9CDA48B42470069C00D93F5E /* TRNSPRT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRNSPRT.h; sourceTree = "<group>"; };
+		9CDA48B52470069C00D93F5E /* DAO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
+		9CDA48B62470069C00D93F5E /* UTIL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTIL.h; sourceTree = "<group>"; };
+		9CDA48B72470069C00D93F5E /* SEAMFAIL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEAMFAIL.h; sourceTree = "<group>"; };
+		9CDA48B82470069D00D93F5E /* SIP_PROPERTIES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIP_PROPERTIES.h; sourceTree = "<group>"; };
+		9CDA48B92470069D00D93F5E /* CS_HEADERS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CS_HEADERS.h; sourceTree = "<group>"; };
+		9CDA48BA2470069D00D93F5E /* DOA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOA.h; sourceTree = "<group>"; };
+		9CDA48BB2470069D00D93F5E /* SIPENGINE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIPENGINE.h; sourceTree = "<group>"; };
+		9CDA48BC2470069D00D93F5E /* MESSAGE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MESSAGE.h; sourceTree = "<group>"; };
+		9CDA48BD2470069E00D93F5E /* ALO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALO.h; sourceTree = "<group>"; };
+		9CDA48BE2470069E00D93F5E /* COMAP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COMAP.h; sourceTree = "<group>"; };
+		9CDA48BF2470069E00D93F5E /* SL_CC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SL_CC.h; sourceTree = "<group>"; };
+		9CDA48C02470069E00D93F5E /* ALARM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALARM.h; sourceTree = "<group>"; };
+		9CDA48C12470069E00D93F5E /* SPIN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPIN.h; sourceTree = "<group>"; };
+		9CDA48C22470069E00D93F5E /* VALO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VALO.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +116,73 @@
 		9CDA4879246F702800D93F5E /* NEWSIPSL */ = {
 			isa = PBXGroup;
 			children = (
-				9CDA487A246F702800D93F5E /* main.cpp */,
+				9CDA4885247002C400D93F5E /* sipsl-code */,
 			);
 			path = NEWSIPSL;
+			sourceTree = "<group>";
+		};
+		9CDA4881246FF0B600D93F5E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA48882470067900D93F5E /* ACTION.cpp */,
+				9CDA48902470067A00D93F5E /* ALARM.cpp */,
+				9CDA48932470067A00D93F5E /* ALO.cpp */,
+				9CDA48982470067A00D93F5E /* CALL_OSET.cpp */,
+				9CDA48912470067A00D93F5E /* COMAP.cpp */,
+				9CDA48892470067900D93F5E /* CS_HEADERS.cpp */,
+				9CDA48992470067B00D93F5E /* DAO.cpp */,
+				9CDA48952470067A00D93F5E /* DOA.cpp */,
+				9CDA48942470067A00D93F5E /* ENGINE.cpp */,
+				9CDA488C2470067900D93F5E /* MESSAGE.cpp */,
+				9CDA48862470067900D93F5E /* SEAMFAIL.cpp */,
+				9CDA488F2470067A00D93F5E /* SIPENGINE.cpp */,
+				9CDA48872470067900D93F5E /* SIPUTIL.cpp */,
+				9CDA48922470067A00D93F5E /* SL_CC.cpp */,
+				9CDA48962470067A00D93F5E /* SPIN.cpp */,
+				9CDA488A2470067900D93F5E /* SUDP.cpp */,
+				9CDA488B2470067900D93F5E /* test.cpp */,
+				9CDA488E2470067A00D93F5E /* TRNSCT_SM.cpp */,
+				9CDA48972470067A00D93F5E /* TRNSPRT.cpp */,
+				9CDA488D2470067A00D93F5E /* VALO.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9CDA4883246FF10400D93F5E /* hdr */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA48AF2470069B00D93F5E /* ACTION.h */,
+				9CDA48C02470069E00D93F5E /* ALARM.h */,
+				9CDA48BD2470069E00D93F5E /* ALO.h */,
+				9CDA48B32470069C00D93F5E /* CALL_OSET.h */,
+				9CDA48BE2470069E00D93F5E /* COMAP.h */,
+				9CDA48B92470069D00D93F5E /* CS_HEADERS.h */,
+				9CDA48B52470069C00D93F5E /* DAO.h */,
+				9CDA48BA2470069D00D93F5E /* DOA.h */,
+				9CDA48B12470069C00D93F5E /* ENGINE.h */,
+				9CDA48BC2470069D00D93F5E /* MESSAGE.h */,
+				9CDA48B72470069C00D93F5E /* SEAMFAIL.h */,
+				9CDA48B82470069D00D93F5E /* SIP_PROPERTIES.h */,
+				9CDA48BB2470069D00D93F5E /* SIPENGINE.h */,
+				9CDA48B02470069C00D93F5E /* SIPUTIL.h */,
+				9CDA48BF2470069E00D93F5E /* SL_CC.h */,
+				9CDA48C12470069E00D93F5E /* SPIN.h */,
+				9CDA48B22470069C00D93F5E /* SUDP.h */,
+				9CDA48AE2470069B00D93F5E /* TRNSCT_SM.h */,
+				9CDA48B42470069C00D93F5E /* TRNSPRT.h */,
+				9CDA48B62470069C00D93F5E /* UTIL.h */,
+				9CDA48C22470069E00D93F5E /* VALO.h */,
+			);
+			path = hdr;
+			sourceTree = "<group>";
+		};
+		9CDA4885247002C400D93F5E /* sipsl-code */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA4881246FF0B600D93F5E /* src */,
+				9CDA4883246FF10400D93F5E /* hdr */,
+			);
+			path = "sipsl-code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +242,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDA487B246F702800D93F5E /* main.cpp in Sources */,
+				9CDA48A92470067B00D93F5E /* DOA.cpp in Sources */,
+				9CDA48A12470067B00D93F5E /* VALO.cpp in Sources */,
+				9CDA48A82470067B00D93F5E /* ENGINE.cpp in Sources */,
+				9CDA48AD2470067B00D93F5E /* DAO.cpp in Sources */,
+				9CDA48A52470067B00D93F5E /* COMAP.cpp in Sources */,
+				9CDA48AC2470067B00D93F5E /* CALL_OSET.cpp in Sources */,
+				9CDA48AB2470067B00D93F5E /* TRNSPRT.cpp in Sources */,
+				9CDA48A02470067B00D93F5E /* MESSAGE.cpp in Sources */,
+				9CDA489D2470067B00D93F5E /* CS_HEADERS.cpp in Sources */,
+				9CDA489C2470067B00D93F5E /* ACTION.cpp in Sources */,
+				9CDA489E2470067B00D93F5E /* SUDP.cpp in Sources */,
+				9CDA48AA2470067B00D93F5E /* SPIN.cpp in Sources */,
+				9CDA489A2470067B00D93F5E /* SEAMFAIL.cpp in Sources */,
+				9CDA48A62470067B00D93F5E /* SL_CC.cpp in Sources */,
+				9CDA48A72470067B00D93F5E /* ALO.cpp in Sources */,
+				9CDA48A42470067B00D93F5E /* ALARM.cpp in Sources */,
+				9CDA489F2470067B00D93F5E /* test.cpp in Sources */,
+				9CDA489B2470067B00D93F5E /* SIPUTIL.cpp in Sources */,
+				9CDA48A22470067B00D93F5E /* TRNSCT_SM.cpp in Sources */,
+				9CDA48A32470067B00D93F5E /* SIPENGINE.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
