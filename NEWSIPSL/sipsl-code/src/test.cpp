@@ -169,6 +169,15 @@ public:
 //    PRINTDIFF("TESTENGINE_1::parse "<< ((TESTMESS*)__message)->id)
 //};
 
+//lancia sipsl
+//SIPSL A 127.0.0.1 9000 9001 (active mateadrress mateport)
+//lancia su un'altra finestra sotto test-tools
+//java sendU3 grog
+//poi provisiona:
+//PD-SIPSL
+//0%i%127.0.0.1:5061%service@127.0.0.1:5061
+//send
+
 const int SUDP::realm = SIPSL_REALM;
 
 int main(int argc, const char* argv[]) {
