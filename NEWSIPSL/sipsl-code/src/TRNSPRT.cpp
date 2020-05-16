@@ -111,6 +111,7 @@ void TRNSPRT::upCall(MESSAGE* _message){
 	if (getSUDP()->getProcessingType() == STAND_ALONE){
 		sipengine->p_w((void*)_message);
 	}
+    //not implemented
 	else if (getSUDP()->getProcessingType() == CALL_DISTRIBUTOR){
 		//check originator
 		//TODO HERE
@@ -132,7 +133,9 @@ void TRNSPRT::upCall(MESSAGE* _message){
 		// get ip address from table # 10 : TBL_SIPSL_PROC
 
 
-	}else if (getSUDP()->getProcessingType() == CALL_PROCESSOR){
+	}
+    //not implemented
+    else if (getSUDP()->getProcessingType() == CALL_PROCESSOR){
 		//probably like StandAlone
 		// but will always reply to incoming socket
 

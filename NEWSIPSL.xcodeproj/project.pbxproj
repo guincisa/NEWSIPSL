@@ -84,6 +84,7 @@
 		9CDA48C02470069E00D93F5E /* ALARM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALARM.h; sourceTree = "<group>"; };
 		9CDA48C12470069E00D93F5E /* SPIN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPIN.h; sourceTree = "<group>"; };
 		9CDA48C22470069E00D93F5E /* VALO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VALO.h; sourceTree = "<group>"; };
+		9CDA48D824708E9800D93F5E /* sendU3.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = sendU3.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		9CDA4879246F702800D93F5E /* NEWSIPSL */ = {
 			isa = PBXGroup;
 			children = (
+				9CDA48D624708E5300D93F5E /* tools */,
 				9CDA4885247002C400D93F5E /* sipsl-code */,
 			);
 			path = NEWSIPSL;
@@ -183,6 +185,22 @@
 				9CDA4883246FF10400D93F5E /* hdr */,
 			);
 			path = "sipsl-code";
+			sourceTree = "<group>";
+		};
+		9CDA48D624708E5300D93F5E /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA48D724708E8000D93F5E /* java */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		9CDA48D724708E8000D93F5E /* java */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA48D824708E9800D93F5E /* sendU3.java */,
+			);
+			path = java;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -177,6 +177,7 @@ int main(int argc, const char* argv[]) {
     // SIPSL A address localPort_s matePort_s
 
     
+    //trap for exit signals
     (void) signal(SIGSEGV, ex_program);
     (void) signal(SIGBUS, ex_program);
     if (argc == 6) {
@@ -190,7 +191,7 @@ int main(int argc, const char* argv[]) {
         }
 
         //This message is used for consitency checks
-        //When a message is deleted, his pointer to set to MainMessage
+        //When a message is deleted, its pointer to set to MainMessage
         //any method call to the main message generates assert
         string empty = "EMPTY";
         sockaddr_inX echoClntAddr;
@@ -240,9 +241,9 @@ int main(int argc, const char* argv[]) {
         NEWPTR(ALMGR*, alarm, ALMGR(ALARMTH, ALARMMAPS, "ALMGR", sl_cc, 0, 10000000), "ALMGR")
         //ALMGR alarm(&sl_cc, 0, 10000000);
         alarm->initAlarm();
-	char SIPPORT[8];
-	strcpy(SIPPORT,argv[5]);
-	int SIPPORT_i = atoi(SIPPORT);
+        char SIPPORT[8];
+	    strcpy(SIPPORT,argv[5]);
+	    int SIPPORT_i = atoi(SIPPORT);
         sipStack->init(SIPPORT_i, transport, "krook", alarm, false);
 
         // Seamless failover
@@ -254,7 +255,7 @@ int main(int argc, const char* argv[]) {
                 //create ROI-Heartbeat engine
                 //link to failoverStack
 
-                char startType[2];
+        char startType[2];
         char mateAddress[80];
         char localPort_s[10];
         char matePort_s[10];

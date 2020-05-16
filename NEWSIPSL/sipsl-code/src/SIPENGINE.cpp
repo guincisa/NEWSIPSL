@@ -166,7 +166,7 @@ void SIPENGINE::parse(void* __mess, int _mmod) {
 
         int method = _mess->getHeadSipRequestCode();
 
-        if (	// Supported methods
+        if (	// unsupported methods
             method != INVITE_REQUEST &&
             method != BYE_REQUEST &&
             method != ACK_REQUEST &&

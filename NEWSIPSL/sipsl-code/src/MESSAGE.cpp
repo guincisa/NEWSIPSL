@@ -2110,7 +2110,8 @@ int MESSAGE::getReqRepType(void){
 	if (message_line.size() == 0){
 		reqRep = REQUNSUPP;
 		headSipRequest = "???";
-	} else{
+	}
+    else{
 		if(strncmp(message_line[0].first,"SIP",3) == 0){
 			reqRep = REPSUPP;
 			//Parse "SIP/2.0 200 OK"

@@ -128,6 +128,7 @@ class SUDP {
         //DOA* doa;
 
         //Seamless failover
+        //set by macro SUDPTH
         int threadNum; // one
 
 };
