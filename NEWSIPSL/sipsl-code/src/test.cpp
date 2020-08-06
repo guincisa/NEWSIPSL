@@ -300,7 +300,7 @@ int main(int argc, const char* argv[]) {
             sipStack->start(CALL_PROCESSOR);
         }
     } else {
-        cout << " <A or P or R> mateAddress localPort_s matePort_s" << endl;
+        cout << " <A or P or R> mateAddress localPort_s matePort_s SIPPORT" << endl;
         return 0;
     }
 
