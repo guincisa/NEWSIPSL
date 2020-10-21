@@ -174,9 +174,18 @@ public:
 //lancia su un'altra finestra sotto test-tools
 //java sendU3 grog
 //poi provisiona:
-//PD-SIPSL
-//0%i%127.0.0.1:5061%service@127.0.0.1:5061
-//send
+//    PD-SIPSL
+//    0%i%127.0.0.1:5061%service@127.0.0.1:5061
+//    send
+
+
+//sipp e sipsl su ip esterni, GCP
+//   java sendU3 <extern ip of sipsl>
+//   PD-SIPSL
+//   0%i%externalip:5061%service@external:5061
+//   send
+//sipp deve uscir con ip externo e non locale, per questo serve modificare l'host file ?
+
 
 const int SUDP::realm = SIPSL_REALM;
 
