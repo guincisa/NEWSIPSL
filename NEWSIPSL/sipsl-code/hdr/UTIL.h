@@ -146,27 +146,29 @@ class ThreadWrapper {
 
 //Sudp threads
 // its x 2
-#define SUDPTH 2
+#define SUDPTH 3
 
 //Max engine threads
 //128
-#define MAXTHREADS 5
-#define MAXMAPS 5
+#define MAXTHREADS 6
+#define MAXMAPS 6
 
 //128
-#define SIPENGINETH 3
+#define SIPENGINETH 4
 //64
-#define SIPENGINMAPS 3
+#define SIPENGINMAPS 4
 
 //64
-#define TRNSPRTTH 2
+#define TRNSPRTTH 3
 //32
-#define TRNSPRTMAPS 2
+#define TRNSPRTMAPS 3
 
 //128
-#define SL_CCTH 6
+#define SL_CCTH 7
 //32
-#define SL_CCMAPS 6
+#define SL_CCMAPS 7
+
+// end threds
 
 #define CALLPROCESSOR 3
 #define LOADBALANCER 2

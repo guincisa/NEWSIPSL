@@ -175,7 +175,7 @@ public:
 //java sendU3 grog
 //poi provisiona:
 //    PD-SIPSL
-//    0%i%127.0.0.1:5061%service@127.0.0.1:5061
+//    0%i%10.132.0.2:5061%service@10.132.0.2:5061
 //    send
 
 
