@@ -44,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		9CB4E6CB25437142002B4DF4 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		9CB4E6CF25437933002B4DF4 /* placeholder */ = {isa = PBXFileReference; lastKnownFileType = text; path = placeholder; sourceTree = "<group>"; };
 		9CDA4877246F702800D93F5E /* NEWSIPSL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NEWSIPSL; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CDA48862470067900D93F5E /* SEAMFAIL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SEAMFAIL.cpp; sourceTree = "<group>"; };
 		9CDA48872470067900D93F5E /* SIPUTIL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SIPUTIL.cpp; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 		9CB4E6CE2543780B002B4DF4 /* bin */ = {
 			isa = PBXGroup;
 			children = (
+				9CB4E6CF25437933002B4DF4 /* placeholder */,
 			);
 			path = bin;
 			sourceTree = "<group>";
