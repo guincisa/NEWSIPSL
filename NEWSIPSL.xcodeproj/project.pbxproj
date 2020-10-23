@@ -100,6 +100,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CB4E6CE2543780B002B4DF4 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
 		9CDA486E246F702800D93F5E = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +190,7 @@
 		9CDA4885247002C400D93F5E /* sipsl-code */ = {
 			isa = PBXGroup;
 			children = (
+				9CB4E6CE2543780B002B4DF4 /* bin */,
 				9CDA4881246FF0B600D93F5E /* src */,
 				9CDA4883246FF10400D93F5E /* hdr */,
 				9CB4E6CB25437142002B4DF4 /* Makefile */,
