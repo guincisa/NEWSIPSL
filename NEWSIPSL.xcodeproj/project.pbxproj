@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CB4E6CC25437142002B4DF4 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4E6CB25437142002B4DF4 /* Makefile */; };
 		9CDA489A2470067B00D93F5E /* SEAMFAIL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48862470067900D93F5E /* SEAMFAIL.cpp */; };
 		9CDA489B2470067B00D93F5E /* SIPUTIL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48872470067900D93F5E /* SIPUTIL.cpp */; };
 		9CDA489C2470067B00D93F5E /* ACTION.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA48882470067900D93F5E /* ACTION.cpp */; };
@@ -42,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9CB4E6CB25437142002B4DF4 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		9CDA4877246F702800D93F5E /* NEWSIPSL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NEWSIPSL; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CDA48862470067900D93F5E /* SEAMFAIL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SEAMFAIL.cpp; sourceTree = "<group>"; };
 		9CDA48872470067900D93F5E /* SIPUTIL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SIPUTIL.cpp; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			children = (
 				9CDA4881246FF0B600D93F5E /* src */,
 				9CDA4883246FF10400D93F5E /* hdr */,
+				9CB4E6CB25437142002B4DF4 /* Makefile */,
 			);
 			path = "sipsl-code";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				9CDA489C2470067B00D93F5E /* ACTION.cpp in Sources */,
 				9CDA489E2470067B00D93F5E /* SUDP.cpp in Sources */,
 				9CDA48AA2470067B00D93F5E /* SPIN.cpp in Sources */,
+				9CB4E6CC25437142002B4DF4 /* Makefile in Sources */,
 				9CDA489A2470067B00D93F5E /* SEAMFAIL.cpp in Sources */,
 				9CDA48A62470067B00D93F5E /* SL_CC.cpp in Sources */,
 				9CDA48A72470067B00D93F5E /* ALO.cpp in Sources */,
